@@ -10,7 +10,10 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
-    "prettier": "prettier src --write"
+    "prettier": "prettier src --write",
+    "cdk:bootstrap": "cdk bootstrap",
+    "cdk:deploy": "npm run build && cdk deploy --require-approval=never",
+    "cdk:destroy": "cdk destroy"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -18,7 +21,9 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.7",
     "@types/yup": "^0.29.14",
+    "aws-cdk-lib": "^2.104.0",
     "axios": "^0.27.2",
+    "cdk": "^2.104.0",
     "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
