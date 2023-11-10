@@ -11,7 +11,6 @@ export function useAvailableProducts() {
       const res = await axios.get<AvailableProduct[]>(
         `${API_PATHS.task3}/products`
       );
-      console.log(res.data);
       return res.data;
     }
   );
