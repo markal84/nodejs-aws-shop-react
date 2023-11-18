@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store!
+            My photography store - markal84 - cdk deployed
           </Link>
         </Typography>
 

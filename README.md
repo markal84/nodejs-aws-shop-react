@@ -1,21 +1,38 @@
 # React-shop-cloudfront
 
-This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
+## Links to bucket and cloudrfont
 
-- [Vite](https://vitejs.dev/) as a project bundler
-- [React](https://beta.reactjs.org/) as a frontend framework
-- [React-router-dom](https://reactrouterdotcom.fly.dev/) as a routing library
-- [MUI](https://mui.com/) as a UI framework
-- [React-query](https://react-query-v3.tanstack.com/) as a data fetching library
-- [Formik](https://formik.org/) as a form library
-- [Yup](https://github.com/jquense/yup) as a validation schema
-- [Vitest](https://vitest.dev/) as a test runner
-- [MSW](https://mswjs.io/) as an API mocking library
-- [Eslint](https://eslint.org/) as a code linting tool
-- [Prettier](https://prettier.io/) as a code formatting tool
-- [TypeScript](https://www.typescriptlang.org/) as a type checking tool
+Because of scoring system is a bit confusing for me in this task I decided to keep and paste all four link here
+
+### Manual deploy links (task 2.1)
+
+[Link to s3 bucket](https://nodejs-aws-shop-react-markal84.s3.eu-north-1.amazonaws.com/index.html)
+
+[Link to cloudfront distribution](http://d311d3s9gd7wsi.cloudfront.net)
+
+### Automated Deployment CDK (task 2.2)
+
+[Link to s3 bucket](https://node-aws-shop-react-cdk.s3.eu-north-1.amazonaws.com/index.html)
+
+[Link to cloudfront distribution](https://d2ltdq4m0myqgk.cloudfront.net/)
 
 ## Available Scripts
+
+## Task 2.0 scripts:
+
+### `cdk:bootstrap`
+
+Bootstrap your cloudfront
+
+### `cdk:deploy`
+
+Build and deploy distribution to cloudfront
+
+### `cdk:destroy`
+
+Delete the distribution (bucket and cloudfront)
+
+---
 
 ### `start`
 
